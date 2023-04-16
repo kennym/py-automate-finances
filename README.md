@@ -6,8 +6,6 @@ This projects fetches:
  
 I created this project because I'm tired of manually downloading those documents for my accountant, and because of that would constantly submit late paying a fine.
 
-Also, the websites of local banks are f\*cking slow as hell. If you're a bank employee, tell your boss to fix your f\*cking website, thanks.
-
 It uses Puppeteer and runs a headless browser and gets the PDF which it saves in `docs/`. All the code is run locally, so no private information is sent to anyone. You can always verify the source code, and I encourage you to do so.
 
 ## Requirements
