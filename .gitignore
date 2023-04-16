@@ -11,5 +11,6 @@
 #.pnp.*
 
 .env
-docs/
+docs/*
 node_modules/
+dist/
