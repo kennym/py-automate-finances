@@ -11,6 +11,6 @@
 #.pnp.*
 
 .env
-docs/*
+docs/*.pdf
 node_modules/
 dist/
