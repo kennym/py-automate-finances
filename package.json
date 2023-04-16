@@ -1,0 +1,17 @@
+{
+  "name": "automate-finances",
+  "author": "Kenny Meyer <kenny@kennymeyer.net>",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "descargar-extracto-tc-regional": "yarn build && node dist/index.js"
+  }
+}
